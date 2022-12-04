@@ -252,8 +252,8 @@ def ledoff():
     utime.sleep(1)
     
 country = 'SG'
-ssid = 'orangejuzz'
-password = 'Beetroot18'
+ssid = 'SSID'
+password = 'PWD'
 wifi_connection = netman.connectWiFi(ssid,password,country)
 
 def main():
